@@ -12,7 +12,7 @@ This repository contains two datasets related to anime shows and user ratings:
 
 ## anime-filtered.csv
 
-Based on 2020 data, this dataset contains information about various anime shows. Here's a brief overview of the dataset:
+Based on 2021 data, this dataset contains information about various anime shows. Here's a brief overview of the dataset:
 
 ### Columns
 
