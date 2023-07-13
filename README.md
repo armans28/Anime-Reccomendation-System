@@ -14,53 +14,44 @@ This repository contains two datasets related to anime shows and user ratings:
 
 Based on 2021 data, this dataset contains information about various anime shows. Here's a brief overview of the dataset:
 
-### Columns
-
-The dataset includes columns like `anime_id`, `Name`, `Score`, `English name`, `Japanese name`, `synopsis`, `Type`, `Episodes`, `Aired`, `Premiered`, `Producers`, `Licensors`, `Studios`, `Source`, `Duration`, `Rating`, `Ranked`, `Popularity`, `Members`, `Favorites`, `Watching`, `Completed`, `On-Hold`, and `Dropped`.
-
-### Anime Details
-
-Each row represents a different anime show, identified by a unique `anime_id`. The `Name` column provides the title of the anime show, both in English and Japanese. The `Score` column indicates the average rating score of the anime show. The `synopsis` column gives a brief summary of the storyline or plot of each anime. The `Type` column categorizes the anime as a TV series, movie, or other format. The `Episodes` column specifies the total number of episodes for each anime show.
-
-### Airing Information
-
-The `Aired` column shows the date range when the anime aired. The `Premiered` column indicates the specific season and year of the anime's premiere.
-
-### Production Details
-
-The `Producers`, `Licensors`, and `Studios` columns list the companies involved in producing and distributing the anime. The `Source` column indicates the medium from which the anime was adapted, such as manga or original.
-
-### Duration and Rating
-
-The `Duration` column specifies the length of each episode. The `Rating` column provides the target audience rating for the anime.
-
-### Popularity and User Engagement
-
-The `Ranked` column ranks the anime based on popularity or user ratings. The `Popularity` column represents the popularity rank of the anime. The `Members` column indicates the number of members who have the anime in their list. The `Favorites` column shows the number of users who have marked the anime as their favorite.
-
-### User Engagement Metrics
-
-The `Watching`, `Completed`, `On-Hold`, and `Dropped` columns represent the number of users in each respective category, indicating the level of user engagement with the anime.
-
-This dataset provides valuable information for analyzing and understanding the characteristics, ratings, popularity, and viewership of different anime shows.
+| Column Name | Description |
+| --- | --- |
+| `anime_id` | The unique identifier for each anime show. |
+| `Name` | The title of the anime show, in both English and Japanese. |
+| `Score` | The average rating score of the anime show. |
+| `English name` | The English title of the anime show. |
+| `Japanese name` | The Japanese title of the anime show. |
+| `synopsis` | A brief summary of the storyline or plot of each anime. |
+| `Type` | The format of the anime show, such as TV series, movie, or other. |
+| `Episodes` | The total number of episodes for each anime show. |
+| `Aired` | The date range when the anime aired. |
+| `Premiered` | The specific season and year of the anime's premiere. |
+| `Producers` | The companies involved in producing the anime. |
+| `Licensors` | The companies involved in distributing the anime. |
+| `Studios` | The animation studios that produced the anime. |
+| `Source` | The medium from which the anime was adapted, such as manga or original. |
+| `Duration` | The length of each episode. |
+| `Rating` | The target audience rating for the anime. |
+| `Ranked` | The popularity rank of the anime. |
+| `Popularity` | The popularity rank of the anime. |
+| `Members` | The number of members who have the anime in their list. |
+| `Favorites` | The number of users who have marked the anime as their favorite. |
+| `Watching` | The number of users who are currently watching the anime. |
+| `Completed` | The number of users who have completed watching the anime. |
+| `On-Hold` | The number of users who have put the anime on hold. |
+| `Dropped` | The number of users who have dropped the anime. |
 
 ## user-filtered.csv
 
-This dataset contains information about user ratings for different anime shows. Here's a brief overview of the dataset:
+Based on 2021 data, this dataset contains information about user rating on each anime. Here's a brief overview of the dataset:
 
-### Columns
+| Column Name | Description |
+| --- | --- |
+| `user_id` | The unique identifier for each user. |
+| `anime_id` | The unique identifier for each anime show. |
+| `rating` | The user's rating for the anime on a scale from 0 to 10, with 10 being the highest rating. |
 
-The dataset includes columns like `user_id`, `anime_id`, and `rating`.
-
-### User and Anime Identification
-
-Each row represents a user's rating for a specific anime show. The `user_id` column identifies the user, while the `anime_id` column identifies the corresponding anime.
-
-### Rating
-
-The `rating` column represents the user's rating for the anime on a scale from 0 to 10, with 10 being the highest rating.
-
-This dataset provides valuable information for analyzing and understanding user preferences and ratings for various anime shows.
+These datasets provide valuable information for analyzing and understanding the characteristics, ratings, popularity, and viewership of different anime shows, as well as user preferences and ratings for various anime shows.
 
 ## Acknowledgments
 
