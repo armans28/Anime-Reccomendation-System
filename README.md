@@ -74,11 +74,4 @@ The dataset was obtained from [MyAnimeList](https://myanimelist.net/), a popular
 
 ## License
 
-This dataset is licensed under the [Open Database License](https://opendatacommons.org/licenses/odbl/1.0/). You are free to use, share, and modify this dataset for any purpose, as long as you attribute the original source and follow the terms of the license.
-
-
-This project is a simple anime recommendation system that suggests anime based on user preferences.
-
-## License
-
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
